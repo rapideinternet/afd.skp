@@ -1,0 +1,21 @@
+{
+  "name": "sivi/afd.skp",
+  "description": "A library with parsers to parse SIVI SKP messages",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Tim Mein",
+      "email": "tim@rapide.software"
+    }
+  ],
+  "require": {
+  },
+  "autoload": {
+    "psr-4": {
+      "SIVI\\AFDSKP\\": "src"
+    }
+  },
+  "require-dev": {
+  }
+}
