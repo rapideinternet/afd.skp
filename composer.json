@@ -10,6 +10,7 @@
     }
   ],
   "require": {
+    "sivi/afd": "dev-master",
   },
   "autoload": {
     "psr-4": {

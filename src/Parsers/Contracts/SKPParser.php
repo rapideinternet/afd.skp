@@ -2,9 +2,9 @@
 
 namespace SIVI\AFDSKP\Parsers\Contracts;
 
-use SIVI\AFDSKP\Models\Message;
+use SIVI\AFDSKP\Models\SKPAction;
 
 interface SKPParser
 {
-    public function parse($xmlString): Message;
+    public function parse($xmlString): SKPAction;
 }

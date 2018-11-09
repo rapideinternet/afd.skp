@@ -2,21 +2,22 @@
 
 namespace SIVI\AFDSKP\Models;
 
-abstract class Message
+class Message
 {
-    /**
-     * @var string
-     */
-    public $productId;
 
-    /**
-     * @var string
+    /***
+     * @var Process
      */
-    public $contextId;
+    public $processInfo;
 
-    /**
-     * @var string
-     */
-    public $functieId;
+    public $messages;
+
+    public $errors;
+
+    public $content;
+
+    public $rawContent;
+
+    public $results;
 
 }
